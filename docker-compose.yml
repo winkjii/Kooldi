@@ -5,8 +5,8 @@ services:
       - ./data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_USER=CDMDashboard
-      - POSTGRES_PASSWORD=CDMr9
+      - POSTGRES_USER=cn334Admin
+      - POSTGRES_PASSWORD=cn334Admin
   product_api:
     build: ./product_service
     command: python manage.py runserver 0.0.0.0:8888
